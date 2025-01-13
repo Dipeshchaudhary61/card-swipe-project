@@ -13,8 +13,8 @@ body {
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +23,7 @@ body {
 
 .card-body {
     height: 50%;
+    border-radius: 10px;
     background: linear-gradient(145deg, #f88073, #f88073);
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.3);
 }
@@ -52,7 +53,7 @@ body {
     background: linear-gradient(145deg, #f88073, #f88073);
     border-radius: 10px;
     box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2), inset -3px -3px 5px rgba(255, 255, 255, 0.3);
-    width: 240px;
+    width: 190px;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -62,7 +63,7 @@ body {
     background: linear-gradient(145deg, #f88073, #f88073);
     border-radius: 10px;
     box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2), inset -3px -3px 5px rgba(255, 255, 255, 0.3);
-    width: 120px;
+    width: 95px;
     margin-top: 10px;
     margin-left: 20px;
 }
