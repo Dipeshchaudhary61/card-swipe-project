@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, orange, purple);
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-body {
+    height: 50%;
+    background: linear-gradient(145deg, #f88073, #f88073);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.3);
+}
+
+.card-footer {
+    height: 50%;
+    display: flex;
+    
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(145deg, #f88073, #f88073);
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.3);
+    margin-top: 20px;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-large {
+    height: 20px;
+    background: linear-gradient(145deg, #f88073, #f88073);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2), inset -3px -3px 5px rgba(255, 255, 255, 0.3);
+    width: 240px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.rectangle-small {
+    height: 15px;
+    background: linear-gradient(145deg, #f88073, #f88073);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2), inset -3px -3px 5px rgba(255, 255, 255, 0.3);
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
